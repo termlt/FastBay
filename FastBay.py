@@ -16,10 +16,8 @@ try:
 	links = soup.find('td', class_ = None)
 	link = links.find('a', class_ = None)
 
-	print()
-	print('Title: ' + title.find('a')['title'].strip('Details for'))
-	print()
-	print('Link for download: ' + link['href'])
+	print('\nTitle: ' + title.find('a')['title'].strip('Details for'))
+	print('\nLink for download: ' + link['href'])
 
 except:
 	print(f'No torrent was found for {search}.')	
