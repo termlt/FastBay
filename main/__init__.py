@@ -1,1 +1,1 @@
-from PyBay import pb
+from FastBay import fb
