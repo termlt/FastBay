@@ -13,9 +13,8 @@ setup(
   author_email = 'anoyan2014@yandex.ru',
   long_description = long_description,
   long_description_content_type = 'text/markdown',
-  url = 'https://github.com/termlt',
-  download_url = 'https://github.com/termlt/FastBay/archive/refs/heads/main.zip',
-  keywords = ['piratebay', 'search', 'fast', 'fast search'],
+  url = 'https://github.com/termlt/FastBay',
+  keywords = ['piratebay', 'search', 'fast', 'fast search', 'FastBay', 'FastBay1'],
   install_requires=[
           'requests',
           'beautifulsoup4',
