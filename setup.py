@@ -5,8 +5,8 @@ with open("description.md", "r") as f:
 
 
 setup(
-  name = 'FastBay1',
-  version = '1.0',
+  name = 'FastBay',
+  version = '0.1',
   license= 'MIT',
   description = "FastBay - is a script that allows it's users to find the best (first) result in PirateBay search and get it's link for a download.",
   author = 'termit',
@@ -14,7 +14,7 @@ setup(
   long_description = long_description,
   long_description_content_type = 'text/markdown',
   url = 'https://github.com/termlt/FastBay',
-  keywords = ['piratebay', 'search', 'fast', 'fast search', 'FastBay', 'FastBay1'],
+  keywords = ['piratebay', 'search', 'fast', 'fast search', 'FastBay'],
   install_requires=[
           'requests',
           'beautifulsoup4',
