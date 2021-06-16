@@ -8,7 +8,7 @@ RIGHT: charlie and the chocolate factory
 import requests
 from bs4 import BeautifulSoup
 
-class pb:
+class fb:
 
 	def __init__(self, search):
 		self.search = search
