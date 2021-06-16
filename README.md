@@ -13,9 +13,9 @@ Sometimes you may notice, that it is not possible to download the torrent as it 
 ```
 from FastBay import fb
 
-fb = fb('Search String')
+result = fb('Search String')
 
-fb.main()
+print(result)
 ```
 
 
@@ -24,9 +24,9 @@ fb.main()
 ```
 from FastBay import fb
 
-search = input('Search: ')
+search = input('Your search: ')
 
-fb = fb(search)
+result = fb(search)
 
-fb.main()
+print(result)
 ```
