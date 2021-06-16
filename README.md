@@ -19,7 +19,7 @@ pip install FastBay
 **EXAMPLE 1**
 
 ```
-from fastbay import fb
+from FastBay import fb
 
 fb = fb('Search String')
 
@@ -30,7 +30,7 @@ fb.main()
 **EXAMPLE 2**
 
 ```
-from fastbay import fb
+from FastBay import fb
 
 search = input('Search: ')
 
