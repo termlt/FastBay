@@ -6,9 +6,9 @@ with open("description.md", "r") as f:
 
 setup(
   name = 'FastBay',
-  version = '0.1',
+  version = '5',
   license= 'MIT',
-  description = "FastBay - is a script that allows it's users to find the best (first) result in PirateBay search and get it's link for a download.",
+  description = "FastBay allows it's users to find the best (first) result in PirateBay search and get it's link for a download.",
   author = 'termit',
   author_email = 'anoyan2014@yandex.ru',
   long_description = long_description,
