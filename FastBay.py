@@ -4,17 +4,14 @@ WRONG: charlie and the choco
 RIGHT: charlie and the chocolate factory
 '''
 
-
 import requests
 from bs4 import BeautifulSoup
 
 def fb(search):
-
     if not search:
         return '\nSearch string can not be blank!'
 
     else:
-
     	r = requests.get(f'https://thepiratebay10.org/search/{search}')
 
     	soup = BeautifulSoup(r.content, 'html.parser')
@@ -22,7 +19,6 @@ def fb(search):
     	try:
     		#Title
     		title = soup.find('div', class_ = 'detName')
-
 
     		#Link for the download
 
@@ -54,7 +50,6 @@ def fb(search):
     		return f'''\nTitle: {title.find('a')['title'].strip('Details for')}
             \nInformation about the torrent \nUploaded: {information}
     		\nLink for a download:  + {link['href']}'''
-
 
     	except:
     		return f'\nNo torrent was found for {search}'
