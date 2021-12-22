@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
-DESCRIPTION = 'Fast torrent parser from PirateBay.'
-LONG_DESCRIPTION = file: docs.md
+this_directory = Path(__file__).parent
+long_description = (this_directory / "docs.md").read_text()
 
-# Setting up
 setup(
     name="fastbay",
-    version='90980908989',
+    version='0.1',
     author="termit (Arsen Anoyan)",
     author_email="<anoyan2014@yandex.ru>",
     url="https://github.com/termlt/FastBay",
-    description=DESCRIPTION,
+    description='Fast torrent parser from PirateBay.',
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     install_requires=['bs4', 'requests'],
     keywords=['python', 'piratebay', 'search', 'parser', 'parsing', 'information'],
