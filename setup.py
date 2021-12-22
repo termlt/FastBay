@@ -12,7 +12,7 @@ setup(
     author_email="<anoyan2014@yandex.ru>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=['beautifoulsoup4', 'requests'],
     keywords=['python', 'piratebay', 'search', 'parser', 'parsing', 'information'],
