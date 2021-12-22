@@ -6,6 +6,7 @@ LONG_DESCRIPTION = "FastBay allows it's users to find the top result in PirateBa
 # Setting up
 setup(
     name="fastbay",
+    version = '1.0'
     author="termit (Arsen Anoyan)",
     author_email="<anoyan2014@yandex.ru>",
     description=DESCRIPTION,
