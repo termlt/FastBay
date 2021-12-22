@@ -1,1 +1,1 @@
-from fastbay import fbay
+from fastbay.fastbay import fbay
