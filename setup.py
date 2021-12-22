@@ -1,20 +1,18 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
 DESCRIPTION = 'Fast torrent parser from PirateBay.'
 LONG_DESCRIPTION = "FastBay allows it's users to find the top result in PirateBay search and get it's link for a download."
 
 # Setting up
 setup(
     name="fastbay",
-    version=VERSION,
     author="termit (Arsen Anoyan)",
     author_email="<anoyan2014@yandex.ru>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['beautifoulsoup4', 'requests'],
+    install_requires=['bs4', 'requests'],
     keywords=['python', 'piratebay', 'search', 'parser', 'parsing', 'information'],
     classifiers=[
         "Development Status :: 1 - Planning",
@@ -25,3 +23,4 @@ setup(
         "Operating System :: Microsoft :: Windows",
     ]
 )
+
